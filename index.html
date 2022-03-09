@@ -4,12 +4,36 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+
+    <title>Conversor de moeda</title>
 
     <link rel="stylesheet" href="./styles/index.css">
   </head>
   <body>
-    <h1>Conversor de Moedas</h1>
+    <main class="stage">
+      <h1 class="title">Conversor de Moedas</h1>
+
+      <section class="converter">
+        <form class="wrapper-coin">
+          <input class="coin" type="number" />
+          <select class="list-coins">
+            <option value="real">Real</option>
+            <option value="sek">SEK</option>
+          </select>
+        </form>
+        <span class="comparator">=</span>
+        <form class="wrapper-coin">
+          <input class="coin" type="number" />
+          <select class="list-coins">
+            <option value="real">Real</option>
+            <option value="sek">SEK</option>
+          </select>
+        </form>
+      </section>
+    </main>
 
     <script type="module" src="/main.js"></script>
   </body>

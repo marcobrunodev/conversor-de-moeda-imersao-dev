@@ -1,0 +1,6 @@
+.wrapper-coin {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  font-size: 2rem;
+}

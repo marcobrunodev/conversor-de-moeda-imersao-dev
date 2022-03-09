@@ -1,0 +1,9 @@
+.list-coins {
+  background-color: var(--color-background);
+  color: var(--color-font);
+  font: inherit;
+  padding: var(--gap-small);
+  border: 0.4rem solid var(--color-font);
+  width: 100%;
+  cursor: pointer;
+}
